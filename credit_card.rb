@@ -1,6 +1,7 @@
 # Class Comment
 class CreditCard
   attr_reader :balance,
+
   def initialize
     @balance = 0.00
   end
@@ -8,7 +9,8 @@ class CreditCard
   def charge(amount)
     @balance += amount
   end
-    def payment(amount)
+
+  def payment(amount)
     @balance -= amount
   end
 end
